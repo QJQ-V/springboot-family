@@ -1,43 +1,33 @@
 package demo.springboot.mybatis.generator.entity;
 
+import javax.persistence.*;
+import lombok.Data;
+
+@Data
+@Table(name = "`city`")
 public class City {
+    /**
+     * 城市编号
+     */
+    @Id
+    @Column(name = "`id`")
     private Integer id;
 
+    /**
+     * 省份编号
+     */
+    @Column(name = "`province_id`")
     private Integer provinceId;
 
+    /**
+     * 城市名称
+     */
+    @Column(name = "`city_name`")
     private String cityName;
 
+    /**
+     * 描述
+     */
+    @Column(name = "`description`")
     private String description;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public Integer getProvinceId() {
-        return provinceId;
-    }
-
-    public void setProvinceId(Integer provinceId) {
-        this.provinceId = provinceId;
-    }
-
-    public String getCityName() {
-        return cityName;
-    }
-
-    public void setCityName(String cityName) {
-        this.cityName = cityName;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
 }

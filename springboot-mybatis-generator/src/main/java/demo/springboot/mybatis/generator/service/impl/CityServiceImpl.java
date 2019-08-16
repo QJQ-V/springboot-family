@@ -1,8 +1,8 @@
 package demo.springboot.mybatis.generator.service.impl;
 
-import demo.springboot.mybatis.dao.CityDao;
-import demo.springboot.mybatis.domain.City;
-import demo.springboot.mybatis.service.CityService;
+import demo.springboot.mybatis.generator.repository.CityMapper;
+import demo.springboot.mybatis.generator.entity.City;
+import demo.springboot.mybatis.generator.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,25 +11,25 @@ import java.util.List;
 @Service
 public class CityServiceImpl implements CityService {
     @Autowired
-    private CityDao cityDao;
+    private CityMapper cityMapper;
 
-    public List<City> findAllCity() {
-        return cityDao.findAllCity();
+    public List<City>  findAllCity() {
+        return cityMapper.selectAll();
     }
 
-    public City findCityByID(long id) {
-        return cityDao.findCityByID(id);
+    public City findCityByID(int id) {
+        return cityMapper.selectByPrimaryKey(id);
     }
 
-    public Long saveCity(City city) {
-        return cityDao.saveCity(city);
+    public int saveCity(City city) {
+        return cityMapper.insert(city);
     }
 
-    public Long updateCity(City city) {
-        return cityDao.updateCity(city);
+    public int updateCity(City city) {
+        return cityMapper.updateByPrimaryKey(city);
     }
 
-    public Long deleteCity(Long id) {
-        return cityDao.deleteCity(id);
+    public int deleteCity(Long id) {
+        return cityMapper.deleteByPrimaryKey(id);
     }
 }

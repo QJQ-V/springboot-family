@@ -10,5 +10,5 @@ public interface CityService {
     City findCityByID(long id);
     Long saveCity(City city);
     Long updateCity(City city);
-    Long deleteCity(Long id);
+    Long deleteCity(long id);
 }

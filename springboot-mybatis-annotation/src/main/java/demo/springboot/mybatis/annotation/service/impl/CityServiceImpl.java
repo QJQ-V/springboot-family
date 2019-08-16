@@ -29,7 +29,7 @@ public class CityServiceImpl implements CityService {
         return cityDao.updateCity(city);
     }
 
-    public Long deleteCity(Long id) {
+    public Long deleteCity(long id) {
         return cityDao.deleteCity(id);
     }
 }
