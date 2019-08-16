@@ -6,21 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-restful" />
         <module name="springboot-helloworld" />
+        <module name="springbootmybatisannotation" />
+        <module name="springboot-mybatis-annotation" />
+        <module name="springboot-mybatis-generator" />
+        <module name="springboot-restful" />
         <module name="springboot-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="annotation" target="1.5" />
+      <module name="demo2" target="1.8" />
       <module name="springboot-helloworld" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-mybatis-annotation" target="1.8" />
+      <module name="springboot-mybatis-generator" target="1.8" />
       <module name="springboot-restful" target="1.8" />
+      <module name="springbootmybatisannotation" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo2" options="-parameters" />
       <module name="springboot-helloworld" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-mybatis-annotation" options="-parameters" />
+      <module name="springboot-mybatis-generator" options="-parameters" />
       <module name="springboot-restful" options="-parameters" />
     </option>
   </component>

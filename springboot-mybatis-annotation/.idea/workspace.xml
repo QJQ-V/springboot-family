@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74d9fad9-79f3-49f5-87e8-83990d9ca559" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/springboot/mybatis/annotation/SpringbootMybatisAnnotationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/springboot/mybatis/annotation/controller/CityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/springboot/mybatis/annotation/dao/CityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/springboot/mybatis/annotation/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/springboot/mybatis/annotation/service/impl/CityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-generator/src/main/java/demo/springboot/mybatis/generator/controller/CityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-generator/src/main/java/demo/springboot/mybatis/generator/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-generator/src/main/java/demo/springboot/mybatis/generator/service/impl/CityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis/src/main/resources/mapper/CityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/springbootmybatis/SpringbootMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/mybatis/SpringbootMybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/springbootmybatis/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/mybatis/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/springbootmybatis/dao/CityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/mybatis/dao/CityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/springbootmybatis/domain/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/mybatis/domain/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/springbootmybatis/entity/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/springboot/mybatis/annotation/domain/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/springbootmybatis/mapper/CityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/springbootmybatis/repository/CityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/springbootmybatis/service/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/mybatis/service/CityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/springbootmybatis/service/impl/CityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis/src/main/java/demo/springboot/mybatis/service/impl/CityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis-generator/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-mybatis/src/test/java/demo/springboot/springbootmybatis/SpringbootMybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mybatis/src/test/java/demo/springboot/mybatis/SpringbootMybatisApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1PUz51G6TgaNIaIo97wLgEn8o6A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo.springboot.mybatis.annotation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringbootMybatisAnnotationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mybatis-annotation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.springboot.mybatis.annotation.SpringbootMybatisAnnotationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74d9fad9-79f3-49f5-87e8-83990d9ca559" name="Default Changelist" comment="" />
+      <created>1565943276045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565943276045</updated>
+      <workItem from="1565943278537" duration="469000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

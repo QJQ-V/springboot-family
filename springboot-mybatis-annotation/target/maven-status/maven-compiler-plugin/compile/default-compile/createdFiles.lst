@@ -1,0 +1,6 @@
+demo\springboot\mybatis\annotation\domain\City.class
+demo\springboot\mybatis\annotation\service\CityService.class
+demo\springboot\mybatis\annotation\controller\CityController.class
+demo\springboot\mybatis\annotation\dao\CityDao.class
+demo\springboot\mybatis\annotation\SpringbootMybatisAnnotationApplication.class
+demo\springboot\mybatis\annotation\service\impl\CityServiceImpl.class
