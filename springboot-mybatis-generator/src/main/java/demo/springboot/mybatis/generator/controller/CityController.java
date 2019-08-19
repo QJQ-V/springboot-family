@@ -1,5 +1,6 @@
 package demo.springboot.mybatis.generator.controller;
 
+import com.github.pagehelper.PageInfo;
 import demo.springboot.mybatis.generator.entity.City;
 import demo.springboot.mybatis.generator.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,5 +37,10 @@ public class CityController {
     @PostMapping(value = "delete/{id}")
     public void modifyCity(@PathVariable("id") Long id) {
         cityService.deleteCity(id);
+    }
+
+    @GetMapping(value = "/pager")
+    public PageInfo<List<City>> findCityByPage(int pageNum, int pageSize) {
+        return cityService.findCityByPage(pageNum, pageSize);
     }
 }

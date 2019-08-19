@@ -1,5 +1,7 @@
 package demo.springboot.mybatis.generator.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import demo.springboot.mybatis.generator.repository.CityMapper;
 import demo.springboot.mybatis.generator.entity.City;
 import demo.springboot.mybatis.generator.service.CityService;
@@ -31,5 +33,13 @@ public class CityServiceImpl implements CityService {
 
     public int deleteCity(Long id) {
         return cityMapper.deleteByPrimaryKey(id);
+    }
+
+    public PageInfo<List<City>> findCityByPage(int pageNum, int pageSize) {
+        PageHelper.startPage(pageNum, pageSize);
+        List<City> cites = cityMapper.selectAll();
+        PageInfo page = new PageInfo(cites);
+
+        return page;
     }
 }

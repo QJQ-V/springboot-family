@@ -43,7 +43,7 @@
             <version>${mybatis-spring-boot}</version>
         </dependency>
 
-        <!-- MySQL 连接驱动依赖 -->
+        <!-- MySQL 依赖 -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -60,6 +60,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <!-- mybatis pagehelper 依赖 -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.5</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -74,8 +80,13 @@
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
                 <version>1.3.6</version>
+                <configuration>
+                    <configurationFile>src/main/resources/generatorConfig.xml</configurationFile>
+                    <verbose>true</verbose>
+                    <overwrite>true</overwrite>
+                </configuration>
                 <dependencies>
-                    <!-- mybatis-generator插件Mysql包 -->
+                    <!-- Mysql 依赖 -->
                     <dependency>
                         <groupId>mysql</groupId>
                         <artifactId>mysql-connector-java</artifactId>

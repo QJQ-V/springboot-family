@@ -1,5 +1,6 @@
 package demo.springboot.mybatis.generator.service;
 
+import com.github.pagehelper.PageInfo;
 import demo.springboot.mybatis.generator.entity.City;
 
 import java.util.List;
@@ -11,4 +12,5 @@ public interface CityService {
     int saveCity(City city);
     int updateCity(City city);
     int deleteCity(Long id);
+    PageInfo<List<City>> findCityByPage(int pageNum, int pageSize);
 }
