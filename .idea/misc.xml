@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-logger/pom.xml" />
       </list>
     </option>
   </component>

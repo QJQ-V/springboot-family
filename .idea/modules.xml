@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-family.iml" filepath="$PROJECT_DIR$/.idea/springboot-family.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" filepath="$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-logger/springboot-logger.iml" filepath="$PROJECT_DIR$/springboot-logger/springboot-logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-annotation/springboot-mybatis-annotation.iml" filepath="$PROJECT_DIR$/springboot-mybatis-annotation/springboot-mybatis-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-generator/springboot-mybatis-generator.iml" filepath="$PROJECT_DIR$/springboot-mybatis-generator/springboot-mybatis-generator.iml" />
