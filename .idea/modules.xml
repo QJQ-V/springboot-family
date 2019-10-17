@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-eureka/springboot-eureka.iml" filepath="$PROJECT_DIR$/springboot-eureka/springboot-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-eureka/springboot-eureka-client/springboot-eureka-client.iml" filepath="$PROJECT_DIR$/springboot-eureka/springboot-eureka-client/springboot-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-eureka/springboot-eureka-consumer/springboot-eureka-consumer.iml" filepath="$PROJECT_DIR$/springboot-eureka/springboot-eureka-consumer/springboot-eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-eureka/springboot-eureka-server/springboot-eureka-server.iml" filepath="$PROJECT_DIR$/springboot-eureka/springboot-eureka-server/springboot-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-eureka/springboot-eureka-server-slave/springboot-eureka-server-slave.iml" filepath="$PROJECT_DIR$/springboot-eureka/springboot-eureka-server-slave/springboot-eureka-server-slave.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-family.iml" filepath="$PROJECT_DIR$/.idea/springboot-family.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" filepath="$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-logger/springboot-logger.iml" filepath="$PROJECT_DIR$/springboot-logger/springboot-logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-annotation/springboot-mybatis-annotation.iml" filepath="$PROJECT_DIR$/springboot-mybatis-annotation/springboot-mybatis-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-generator/springboot-mybatis-generator.iml" filepath="$PROJECT_DIR$/springboot-mybatis-generator/springboot-mybatis-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-restful/springboot-restful.iml" filepath="$PROJECT_DIR$/springboot-restful/springboot-restful.iml" />
     </modules>
   </component>

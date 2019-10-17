@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eureka-server-slave #应用名称
+server:
+  port: 1112
+
+#eureka 服务端配置
+eureka:
+  instance:
+    hostname: localhost
+  server:
+    enable-self-preservation: false #关闭自我保护
+  client:
+    #register-with-eureka: false #不向注册中心注册自己
+    #fetch-registry: false #不需要检索服务
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:1111/eureka/
+

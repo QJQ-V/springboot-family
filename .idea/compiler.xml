@@ -6,23 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-helloworld" />
-        <module name="springbootmybatisannotation" />
         <module name="springboot-mybatis-annotation" />
-        <module name="springboot-logger" />
+        <module name="springbootmybatisannotation" />
         <module name="springboot-mybatis-generator" />
         <module name="springboot-restful" />
+        <module name="springboot-eureka-client" />
+        <module name="springboot-rabbitmq" />
+        <module name="springboot-logger" />
+        <module name="springboot-eureka-consumer" />
+        <module name="springboot-eureka-server-slave" />
+        <module name="springboot-eureka" />
+        <module name="springboot-helloworld" />
+        <module name="springboot-redis" />
         <module name="springboot-mybatis" />
+        <module name="springboot-eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="annotation" target="1.5" />
       <module name="demo2" target="1.8" />
+      <module name="springboot-eureka" target="1.8" />
+      <module name="springboot-eureka-client" target="1.8" />
+      <module name="springboot-eureka-consumer" target="1.8" />
+      <module name="springboot-eureka-server" target="1.8" />
+      <module name="springboot-eureka-server-slave" target="1.8" />
       <module name="springboot-helloworld" target="1.8" />
       <module name="springboot-logger" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-mybatis-annotation" target="1.8" />
       <module name="springboot-mybatis-generator" target="1.8" />
+      <module name="springboot-rabbitmq" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
       <module name="springboot-restful" target="1.8" />
       <module name="springbootmybatisannotation" target="1.5" />
     </bytecodeTargetLevel>
@@ -30,11 +44,18 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo2" options="-parameters" />
+      <module name="springboot-eureka" options="-parameters" />
+      <module name="springboot-eureka-client" options="" />
+      <module name="springboot-eureka-consumer" options="" />
+      <module name="springboot-eureka-server" options="" />
+      <module name="springboot-eureka-server-slave" options="" />
       <module name="springboot-helloworld" options="-parameters" />
       <module name="springboot-logger" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-mybatis-annotation" options="-parameters" />
       <module name="springboot-mybatis-generator" options="-parameters" />
+      <module name="springboot-rabbitmq" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
       <module name="springboot-restful" options="-parameters" />
     </option>
   </component>

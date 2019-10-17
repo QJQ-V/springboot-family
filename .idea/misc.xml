@@ -14,8 +14,16 @@
         <option value="$PROJECT_DIR$/springboot-mybatis-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis-generator/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-logger/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springbooteureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-eureka/springboot-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-eureka/springboot-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-eureka/springboot-eureka-server-slave/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-eureka/springboot-eureka-consumer/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="12" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

@@ -1,0 +1,18 @@
+spring:
+  #数据源配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  #Redis 配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    password:
+
+#Mybatis 配置
+mybatis:
+  typeAliasesPackage: demo.springboot.redis.entity
+  mapperLocations: classpath:mapper/*.xml
